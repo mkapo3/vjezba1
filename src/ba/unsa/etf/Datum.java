@@ -10,4 +10,15 @@ public class Datum {
         System.out.println(dan + "." + mjesec+ "." + godina + ".");
     }
 
+    public int getDan() {
+        return dan;
+    }
+
+    public int getMjesec() {
+        return mjesec;
+    }
+
+    public int getGodina() {
+        return godina;
+    }
 }
